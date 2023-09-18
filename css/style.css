@@ -1,28 +1,21 @@
-.desserts {
-	background: url('/images/showcase.jpg');
-	background-repeat: no-repeat;
-	background-position: bottom right;
+.bg-secondary,
+.btn-secondary {
+	background: #e0bcaa !important;
+	border: 0;
 }
 
 .bg-primary,
 .btn-primary {
 	background: #b6816f !important;
-	border: none;
-}
-
-.bg-secondary,
-.btn-secondary {
-	background: #e0bcaa !important;
-	border: none;
+	border: 0;
 }
 
 .pb-6 {
 	padding-bottom: 70px;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-	.pb-6 {
-		padding-bottom: 40px;
-	}
+.desserts {
+	background: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
